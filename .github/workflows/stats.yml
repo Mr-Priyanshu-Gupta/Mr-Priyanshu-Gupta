@@ -1,4 +1,4 @@
-name: Generate GitHub Stats
+name: Generate GitHub Stats (Local)
 
 on:
   schedule:
@@ -9,20 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          username: Mr-Priyanshu-Gupta
-          theme: tokyonight
-          show_icons: true
-          hide_border: true
-          output: dist/github-stats.svg
+      - uses: actions/checkout@v4
 
-      - name: Push stats to repo
+      - name: Generate GitHub profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: Mr-Priyanshu-Gupta
+          THEME: tokyonight
+
+      - name: Push stats to stats branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: stats
-          build_dir: dist
+          build_dir: profile-summary-card-output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
