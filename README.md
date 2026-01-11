@@ -48,6 +48,8 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 <img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub Stats" />
 
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/3-stats.svg" alt="GitHub Stats" />
+
 <br/>
 
 ## 🏙️ GitHub Skyline
