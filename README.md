@@ -52,13 +52,11 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="48%" />
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="48%" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/3-stats.svg" width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="48%" />
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/3-stats.svg" width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="48%" />
 
 </div>
 
