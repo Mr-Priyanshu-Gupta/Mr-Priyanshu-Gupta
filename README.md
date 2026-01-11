@@ -87,12 +87,17 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 ## 🌐 Connect
 
+
+<div align="center">
+
 <a href="https://www.linkedin.com/in/priyanshu-gupta8077655243/" target="_blank">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" style="margin: 10px" />
 </a>
 <a href="mailto:priyanshuguptaofficial555@gmail.com">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40" style="margin: 10px" />
 </a>
+
+</div>
 
 <br/>
 <br/>
