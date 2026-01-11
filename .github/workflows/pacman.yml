@@ -1,0 +1,23 @@
+name: Generate Pac-Man contribution graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Pac-Man graph
+        uses: Platane/pacman-contribution-graph@main
+        with:
+          github_user_name: Mr-Priyanshu-Gupta
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
