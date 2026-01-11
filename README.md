@@ -65,7 +65,7 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 <br/>
 
-## 🧠 Contribution Strategy
+<!--## 🧠 Contribution Strategy
 
 <img
   src="https://ghchart.rshah.org/0f172a/Mr-Priyanshu-Gupta"
@@ -74,13 +74,13 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 > A year of consistent execution — small moves, compounding over time.
 
-<br/>
+<br/> 
 
 ## 💻 Activity Replay
 
 <img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/activity.svg" />
 
-<br/>
+<br/>  -->
 
 ## 👾 Contribution Graph
 
