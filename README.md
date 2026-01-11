@@ -46,8 +46,8 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mr-Priyanshu-Gupta&show_icons=true&theme=tokyonight&hide_border=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Mr-Priyanshu-Gupta&show_icons=true&theme=tokyonight" />
+<img src="https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" />
 
 <br/>
 
