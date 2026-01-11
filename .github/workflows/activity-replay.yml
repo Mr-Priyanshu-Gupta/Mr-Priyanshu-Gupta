@@ -1,0 +1,22 @@
+name: Activity Replay
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate activity animation
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Mr-Priyanshu-Gupta
+          template: terminal
+          base: activity
+          config_timezone: Asia/Kolkata
+          filename: activity.svg
