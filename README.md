@@ -46,9 +46,22 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 ## 📊 GitHub Stats
 
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub Stats" />
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/3-stats.svg" alt="GitHub Stats" />
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/0-profile-details.svg" width="100%" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/1-repos-per-language.svg" width="48%" />
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/2-most-commit-language.svg" width="48%" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/3-stats.svg" width="48%" />
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/4-productive-time.svg" width="48%" />
+
+</div>
+
 
 <br/>
 
