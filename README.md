@@ -65,9 +65,20 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 <br/>
 
-## 🏙️ GitHub Skyline
+## 🧠 Contribution Strategy
 
-<img src="skyline.png" style="max-width:100%; height:auto;" alt="GitHub Skyline" />
+<img
+  src="https://ghchart.rshah.org/0f172a/Mr-Priyanshu-Gupta"
+  alt="GitHub contribution chart"
+/>
+
+> A year of consistent execution — small moves, compounding over time.
+
+<br/>
+
+## 💻 Activity Replay
+
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/activity.svg" />
 
 <br/>
 
