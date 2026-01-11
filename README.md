@@ -47,8 +47,8 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 ## 📊 GitHub Stats
 
 <div align="center">
-![](https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/0-profile-details.svg)
-<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/2077/0-profile-details.svg" width="100%" />
+
+<img src="https://raw.githubusercontent.com/Mr-Priyanshu-Gupta/Mr-Priyanshu-Gupta/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
 
 <br/><br/>
 
