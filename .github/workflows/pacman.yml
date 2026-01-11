@@ -5,6 +5,9 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -13,6 +16,7 @@ jobs:
         uses: Platane/pacman-contribution-graph@main
         with:
           github_user_name: Mr-Priyanshu-Gupta
+          output_directory: dist
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
