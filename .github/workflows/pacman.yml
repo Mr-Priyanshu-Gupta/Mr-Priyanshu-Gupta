@@ -1,4 +1,4 @@
-name: Generate Pac-Man contribution graph
+name: Generate Contribution Graph (Pac-Man)
 
 on:
   schedule:
@@ -12,11 +12,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Pac-Man graph
-        uses: Platane/pacman-contribution-graph@main
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        uses: Platane/snk@v3
         with:
           github_user_name: Mr-Priyanshu-Gupta
-          output_directory: dist
+          outputs: |
+            dist/pacman.svg
+            dist/pacman-dark.svg?palette=github-dark&color_snake=yellow
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
