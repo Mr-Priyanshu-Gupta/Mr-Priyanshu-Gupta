@@ -3,7 +3,7 @@ name: Generate GitHub Streak
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -19,9 +19,13 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Generate streak SVG
+      - name: Generate streak SVG (authenticated)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -L "https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" \
+          curl -L \
+          -H "Authorization: Bearer $GH_TOKEN" \
+          "https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" \
           -o assets/streak.svg
 
       - name: Commit and push streak
