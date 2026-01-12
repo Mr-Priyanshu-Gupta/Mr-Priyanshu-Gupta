@@ -1,9 +1,9 @@
-name: Generate GitHub Streak
+name: Generate Local GitHub Streak
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # daily UTC
 
 permissions:
   contents: write
@@ -13,23 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create assets directory
-        run: mkdir -p assets
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-      - name: Generate streak SVG (authenticated)
+      - name: Generate streak SVG
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -L \
-          -H "Authorization: Bearer $GH_TOKEN" \
-          "https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" \
-          -o assets/streak.svg
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/streak.js
 
-      - name: Commit and push streak
+      - name: Commit SVG
         uses: EndBug/add-and-commit@v9
         with:
           add: "assets/streak.svg"
-          message: "chore: update github streak"
+          message: "chore: update local github streak"
