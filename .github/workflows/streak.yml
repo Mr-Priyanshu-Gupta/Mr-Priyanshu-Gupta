@@ -1,26 +1,31 @@
 name: Generate GitHub Streak
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+
+permissions:
+  contents: write
 
 jobs:
   streak:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate streak SVG
-        uses: DenverCoder1/github-readme-streak-stats@master
-        with:
-          user: Mr-Priyanshu-Gupta
-          theme: tokyonight
-          output: assets/streak.svg
+      - name: Create assets directory
+        run: mkdir -p assets
 
-      - name: Commit and push
+      - name: Generate streak SVG
+        run: |
+          curl -L "https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" \
+          -o assets/streak.svg
+
+      - name: Commit and push streak
         uses: EndBug/add-and-commit@v9
         with:
           add: "assets/streak.svg"
-          message: "chore: update streak stats"
+          message: "chore: update github streak"
