@@ -66,7 +66,10 @@ A structured collection of **Data Structures & Algorithms** solved in Java and P
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=highcontrast)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Mr-Priyanshu-Gupta&theme=tokyonight" />
+</p>
+
 
 <br/>
 
