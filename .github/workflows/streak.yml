@@ -2,7 +2,7 @@ name: Generate GitHub Streak
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
